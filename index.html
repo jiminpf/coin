@@ -1,0 +1,271 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0">
+<link href="../css/reset.css" rel="stylesheet" type="text/css">
+<link href="../css/common.css" rel="stylesheet" type="text/css">
+<link href="../css/main.css" rel="stylesheet" type="text/css">
+<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.4.1/css/all.css" rel="stylesheet" type="text/css" />
+<link href="https://cdn.jsdelivr.net/npm/remixicon@2.5.0/fonts/remixicon.css" rel="stylesheet">
+<!--[if lt IE 9]>
+	<script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+	<script src="https://oss.maxcdn.com/libs/respond.js/1.3.0/respond.min.js"></script>
+<![endif]-->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+<script src="../js/common.js"></script>
+<title>CHANGE 24</title>
+</head>
+<body>
+<div class="wrapper">
+	<div class="header">
+		<div class="inner clear">
+			<h1 class="logo"><a href="index.html">CHANGE24</a></h1>
+			<ul class="gnb clear">
+				<li>
+					<a class="depth1 have" href="javascript:;">대행신청</a>
+					<div class="depth2">
+						<a href="game/buy.html">구매</a>
+						<a href="game/sell.html">판매</a>
+					</div>
+				</li>
+				<li>
+					<a class="depth1 have" href="javascript:;">대행현황</a>
+					<div class="depth2">
+						<a href="mypage/rent_deal_list.html">구매내역</a>
+					</div>
+				</li>
+				<li>
+					<a class="depth1 have" href="javascript:;">고객센터</a>
+					<div class="depth2">
+						<a href="board/notice_list.html">공지사항</a>
+						<a href="board/qna_list.html">1:1문의</a>
+					</div>
+				</li>
+				<li>
+					<!-- <?if($this->user[USER_ID]) {?>
+						<a class="btn" href="/member/process/?mode=logout">로그아웃</a>
+						<a class="btn" href="/member/mypage/index.php?mode=info">마이페이지</a>
+					<?}else{?>
+						<a class="btn" href="/member/?mode=login&origin=main/">로그인</a>
+						<a class="btn" href="/member/?mode=join_register3">회원가입</a>
+					<?}?> -->
+				</li>
+			</ul><!-- /gnb -->
+			<div class="p_btns">
+				<a class="btn" href="member/login.html"><i class="fas fa-sign-in-alt"></i>로그인</a>
+				<a class="btn" href="member/join.html"><i class="fas fa-user"></i>회원가입</a>
+			</div>
+			<button class="m_menu">메뉴열기
+				<span class="bar bar1"></span>
+				<span class="bar bar2"></span>
+				<span class="bar bar3"></span>
+			</button>
+		</div>
+	</div><!-- /header -->
+	<div class="m_gnb_wrap">
+		<div class="m_gnb">
+			<button class="close"><i class="ri-close-line"></i></button>
+			<!-- <?if($this->user[USER_ID]) {?>
+			<div class="p_btns clear">
+				<a class="btn btn1" href="/member/process/?mode=logout">로그아웃</a>
+				<a class="btn" href="">마이페이지</a>				
+			</div>
+			<?}else{?>
+			<div class="p_btns clear">
+				<a class="btn btn1" href="/member/?mode=login&origin=main/">로그인</a>
+				<a class="btn" href="/member/?mode=join_register3">회원가입</a>
+			</div>
+			<?}?> -->
+			<div class="p_btns">
+				<a class="btn btn1" href="member/login.html">로그인</a>
+				<a class="btn" href="member/join.html">회원가입</a>
+			</div>
+			<ul class="menu_list">
+				<li>
+					<a class="depth1" href="javascript:;">대행신청</a>
+					<div class="depth2">
+						<a href="game/buy.html">구매</a>
+						<a href="game/sell.html">판매</a>
+					</div>
+				</li>
+				<li>
+					<a class="depth1" href="javascript:;">대행현황</a>
+					<div class="depth2">
+						<a href="mypage/rent_deal_list.html">구매내역</a>
+					</div>
+				</li>
+				<li>
+					<a class="depth1" href="javascript:;">고객센터</a>
+					<div class="depth2">
+						<a href="board/notice_list.html">공지사항</a>
+						<a href="board/qna_list.html">1:1문의</a>
+					</div>
+				</li>
+				<!-- <?if($this->user[USER_ID]) {?>
+				<li><a href="/member/mypage/?mode=soosoo_ca">정산페이지</a></li>
+				<?}?> -->
+			</ul>
+		</div>
+	</div><!-- /m_gnb -->
+	<div class="container">
+		<div class="main_slider">
+			<div class="slide slide01">
+				<div class="inner clear" style="position:relative; height:100%;">
+					<div class="txt_wrap">
+						<p class="title">비트코인&#183;이더리움 구매대행</p>
+						<p class="text">체인지24에서 쉽고, 빠르고, 간편하게! </br>복잡한 인증 절차 없이 누구나 가상화폐를 구매&#183;판매할 수 있습니다!</p>
+					</div>
+					<div class="input_select_wrap">
+						<div class="input_select clear">
+							<div class="input">
+								<p class="label">기준값 입력</p>
+								<input type="text" placeholder="0"/>
+							</div>
+							<div class="select">
+								<i class="fab fa-btc"></i>
+								<select>
+									<option value="">BTC</option>
+									<option value="">BTC</option>								
+								</select>	
+							</div>
+						</div>
+						<div class="fees clear">
+							<div class="L">
+								<p>전용수수료 : 0.0004 BTC(4,600원)</p>
+								<p>적용비율 : 10% <span class="line">수수료 비율 보기</span>
+									<div class="fees_modal">
+										<p class="taR close"><i class="ri-close-line"></i></p>
+										<p>대행금액(원) 10,000~50,000 까지 : BTC 10 %</p>
+										<p>대행금액(원) 50,000 초과 100,000 까지 : BTC 9.0 %</p>
+										<p>대행금액(원) 100,000 초과 200,000 까지 : BTC 8.0 %</p>
+										<p>대행금액(원) 200,000 초과 300,000 까지 : BTC 7.0 %</p>
+										<p>대행금액(원) 300,000 초과 400,000 까지 : BTC 6.5 %</p>
+										<p>대행금액(원) 400,000 초과 500,000 까지 : BTC 6.0 %</p>
+									</div>
+								</p>
+							</div>
+							<i class="ri-arrow-up-down-line R"></i>
+						</div>
+						<div class="input_select clear">
+							<div class="input">
+								<p class="label">받을 코인/금액</p>
+								<input type="text" placeholder="4.0295697" />
+							</div>
+							<div class="select">
+								<i class="fab fa-ethereum"></i>
+								<select>
+									<option value="">ETH</option>
+									<option value="">ETH</option>								
+								</select>	
+							</div>
+						</div>
+						<a href="" class="go_btn">구매하러가기</a>
+					</div>
+				</div>
+			</div>
+		</div><!-- /main slider -->
+		<div class="section sec1">
+			<div class="inner">
+				<p class="title">코인 시세</p>
+				<div class="table_wrap">
+					<table>
+						<tr>
+							<th class="t_none">&#35;</th>
+							<th>코인명</th>
+							<th>가격</th>
+							<th>전일대비</th>
+							<th class="taC t_none">구매</th>
+							<th class="taC t_none">판매</th>
+						</tr>
+						<tr>
+							<td class="t_none">1</td>
+							<td><i class="fab fa-bitcoin"></i><span class="name1">BTC</span><span class="name2">bitcoin</span></td>
+							<td class="price">&#8361;10,880,803.49</td>
+							<td class="green">&plus;0.02&#37;</td>
+							<td class="taC t_none"><a href="" class="buy_sell_btn buy">구매하기</a></td>
+							<td class="taC t_none"><a href="" class="buy_sell_btn sell">판매하기</a></td>
+						</tr>
+						<tr>
+							<td class="t_none">2</td>
+							<td  class="eth"><span class="name1">ETH</span><span class="name2">Ethereum</span></td>
+							<td class="price">&#8361;248,904.38</td>
+							<td class="red">&#8722;0.64&#37;</td>
+							<td class="taC t_none"><a href="" class="buy_sell_btn buy">구매하기</a></td>
+							<td class="taC t_none"><a href="" class="buy_sell_btn sell">판매하기</a></td>
+						</tr>
+					</table>
+					<a href="" class="guide_go">1:1문의 하러가기<i class="fas fa-chevron-right"></i></a>
+				</div>
+			</div>
+		</div>
+		<div class="section sec2">
+			<div class="inner">
+				<ul class="guide_wrap clear">
+					<li>
+						<div class="img"><img src="../images/guide_icon_1.png" alt=""></div>
+						<p class="tit">01. 회원가입</p>
+						<p class="des">휴대폰 본인인증을 이용한 </br>간편가입!</p>
+					</li>
+					<li>
+						<div class="img"><img src="../images/guide_icon_2.png" alt=""></div>
+						<p class="tit">02. 대행신청</p>
+						<p class="des">희망하는 금액&#183;화폐명을 </br>입력하세요!</p>
+					</li>
+					<li>
+						<div class="img"><img src="../images/guide_icon_3.png" alt=""></div>
+						<p class="tit">03. 대행완료</p>
+						<p class="des">휴대폰 본인인증을 이용한 </br>간편가입!</p>
+					</li>
+				</ul>
+			</div>
+		</div>
+		<div class="section sec3">
+			<div class="inner">
+				<p class="title">서비스 소개</p>
+				<div class="service_wrap clear">
+					<div class="notice">
+						<p class="service_tit clear">공지사항<a href="board/notice_list.html" class="R"><i class="ri-add-fill"></i></a></p>
+						<ul class="">
+							<li class="clear"><a href="board/notice_view.html"><span class="noti_tit">[추천종목/관련뉴스]2020-04-12 (공급을 알림을 함부로 허용하지 않공급을 알림을 함부로 허용하지 않공급을 알림을 함부로 허용하지 않</span><span class="date">2020-05-30</span></a></li>
+							<li class="clear"><a href="board/notice_view.html"><span class="noti_tit">[추천종목 / 관련뉴스] 2020-04-10 (다만 주소 입력으로 설정 다만 주소 입력으로 설정 다만 주소 입력으로 설정 </span><span class="date">2020-05-30</span></a></li>
+							<li class="clear"><a href="board/notice_view.html"><span class="noti_tit">[수익실현] VIP추천 (변경)디알텍 (모바일 크롬에서도 휴대폰 알림으로크롬에서도 휴대폰 알림으로크롬에서도 휴대폰 알림으로</span><span class="date">2020-05-30</span></a></li>
+							<li class="clear"><a href="board/notice_view.html"><span class="noti_tit">[추천종목 / 관련뉴스] 2020-04-09 (공급을 방법만 사용해도 어지간급을 방법만 사용해도 어지간급을 방법만 사용해도 어지간</span><span class="date">2020-05-30</span></a></li>
+							<li class="clear"><a href="board/notice_view.html"><span class="noti_tit">[수익실현] VIP추천 (변경)디알텍 (2146 관그렇기 때문에 알림형 광고(2146 관그렇기 때문에 알림형 광고</span><span class="date">2020-05-30</span></a></li>							
+						</ul>
+					</div>
+					<div class="cs_center">
+						<p class="service_tit">고객상담</p>
+						<ul>
+							<li>
+								<i class="ri-phone-fill"></i>
+								<p><span class="tit">대표번호 : </span><span class="blue">02-1234-5689</span></p>
+							</li>
+							<li>
+								<i class="ri-customer-service-line"></i>
+								<p><span class="tit">평일 : </span>09:00~18:00</p>
+								<p><span class="tit">점심 : </span>12:00~13:00(주말&#183;공휴일은 휴무)</p>
+							</li>
+							<li>
+								<i class="fab fa-telegram-plane"></i>
+								<p><span class="tit">텔레그램 : </span>Abcde24</p>
+							</li>
+							<li>
+								<i class="ri-kakao-talk-fill"></i>
+								<p><span class="tit">카카오톡 : </span><a href="" class="kakao_btn">카카오톡 상담하기</a></p>
+							</li>
+						</ul>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div><!-- /container -->
+	<div class="footer">
+		<a href="member/terms.html" class="f_list">개인정보취급방침</a>
+		<a href="member/terms.html" class="f_list">회사정보</a>
+		<a href="member/terms.html" class="f_list">이용약관</a>
+		<p class="copyright">Copyright by CHANGE24. All rights reserved.</p>
+	</div>
+</div>
+</body>
+</html>

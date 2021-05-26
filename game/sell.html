@@ -1,0 +1,293 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0">
+<link href="../../css/reset.css" rel="stylesheet" type="text/css">
+<link href="../../css/common.css" rel="stylesheet" type="text/css">
+<link href="../../css/sub.css" rel="stylesheet" type="text/css">
+<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.4.1/css/all.css" rel="stylesheet" type="text/css" />
+<link href="https://cdn.jsdelivr.net/npm/remixicon@2.5.0/fonts/remixicon.css" rel="stylesheet">
+<!--[if lt IE 9]>
+	<script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+	<script src="https://oss.maxcdn.com/libs/respond.js/1.3.0/respond.min.js"></script>
+<![endif]-->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+<script src="../../js/common.js"></script>
+<title>CHANGE 24</title>
+</head>
+<body>
+<div class="wrapper">
+	<div class="header">
+		<div class="inner clear">
+			<h1 class="logo"><a href="../index.html">CHANGE24</a></h1>
+			<ul class="gnb clear">
+				<li>
+					<a class="depth1 have" href="javascript:;">대행신청</a>
+					<div class="depth2">
+						<a href="../game/buy.html">구매</a>
+						<a href="../game/sell.html">판매</a>
+					</div>
+				</li>
+				<li>
+					<a class="depth1 have" href="javascript:;">대행현황</a>
+					<div class="depth2">
+						<a href="../mypage/rent_deal_list.html">구매내역</a>
+					</div>
+				</li>
+				<li>
+					<a class="depth1 have" href="javascript:;">고객센터</a>
+					<div class="depth2">
+						<a href="../board/notice_list.html">공지사항</a>
+						<a href="../board/qna_list.html">1:1문의</a>
+					</div>
+				</li>
+				<li>
+					<!-- <?if($this->user[USER_ID]) {?>
+						<a class="btn" href="/member/process/?mode=logout">로그아웃</a>
+						<a class="btn" href="/member/mypage/index.php?mode=info">마이페이지</a>
+					<?}else{?>
+						<a class="btn" href="/member/?mode=login&origin=main/">로그인</a>
+						<a class="btn" href="/member/?mode=join_register3">회원가입</a>
+					<?}?> -->
+				</li>
+			</ul><!-- /gnb -->
+			<div class="p_btns">
+				<a class="btn" href="../member/login.html"><i class="fas fa-sign-in-alt"></i>로그인</a>
+				<a class="btn" href="../member/join.html"><i class="fas fa-user"></i>회원가입</a>
+			</div>
+			<button class="m_menu">메뉴열기
+				<span class="bar bar1"></span>
+				<span class="bar bar2"></span>
+				<span class="bar bar3"></span>
+			</button>
+		</div>
+	</div><!-- /header -->
+	<div class="m_gnb_wrap">
+		<div class="m_gnb">
+			<button class="close"><i class="ri-close-line"></i></button>
+			<!-- <?if($this->user[USER_ID]) {?>
+			<div class="p_btns clear">
+				<a class="btn btn1" href="/member/process/?mode=logout">로그아웃</a>
+				<a class="btn" href="">마이페이지</a>				
+			</div>
+			<?}else{?>
+			<div class="p_btns clear">
+				<a class="btn btn1" href="/member/?mode=login&origin=main/">로그인</a>
+				<a class="btn" href="/member/?mode=join_register3">회원가입</a>
+			</div>
+			<?}?> -->
+			<div class="p_btns">
+				<a class="btn btn1" href="../member/login.html">로그인</a>
+				<a class="btn" href="../member/join.html">회원가입</a>
+			</div>
+			<ul class="menu_list">
+				<li>
+					<a class="depth1" href="javascript:;">대행신청</a>
+					<div class="depth2">
+						<a href="../game/buy.html">구매</a>
+						<a href="../game/sell.html">판매</a>
+					</div>
+				</li>
+				<li>
+					<a class="depth1" href="javascript:;">대행현황</a>
+					<div class="depth2">
+						<a href="../mypage/rent_deal_list.html">구매내역</a>
+					</div>
+				</li>
+				<li>
+					<a class="depth1" href="javascript:;">고객센터</a>
+					<div class="depth2">
+						<a href="../board/notice_list.html">공지사항</a>
+						<a href="../board/qna_list.html">1:1문의</a>
+					</div>
+				</li>
+				<!-- <?if($this->user[USER_ID]) {?>
+				<li><a href="/member/mypage/?mode=soosoo_ca">정산페이지</a></li>
+				<?}?> -->
+			</ul>
+		</div>
+	</div><!-- /m_gnb -->
+	<div class="page_top">
+		<div class="inner">
+			<p class="page_title">판매대행</p>
+			<div class="breadcumb">
+				<span class="nav">home</span>
+				<span class="nav on">판매대행</span>
+			</div>
+		</div>
+	</div>
+	<div class="container bg">
+        <div class="inner">
+			<div class="box">
+                <div class="pc_ver">
+					<p class="sub_tit">코인시세</p>
+                    <div class="table table1 table3">
+                        <table class="taL">
+                            <thead>
+                                <tr>
+                                    <th>&#35;</th>
+                                    <th>코인명</th>
+                                    <th>가격</th>
+                                    <th>전일대비</th>
+                                    <th class="taC">구매</th>
+                                    <th class="taC">판매</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <td class="t_num">1</td>
+                                    <td><i class="fab fa-bitcoin"></i><span class="name1">BTC</span><span class="name2">bitcoin</span></td>
+                                    <td class="price">&#8361;10,880,803.49</td>
+                                    <td class="green">&plus;0.02&#37;</td>
+                                    <td class="taC"><a href="" class="buy_sell_btn buy">구매하기</a></td>
+                                    <td class="taC"><a href="" class="buy_sell_btn sell">판매하기</a></td>
+                                </tr>
+                                <tr>
+                                    <td class="t_num">2</td>
+                                    <td  class="eth"><span class="name1">ETH</span><span class="name2">Ethereum</span></td>
+                                    <td class="price">&#8361;248,904.38</td>
+                                    <td class="red">&#8722;0.64&#37;</td>
+                                    <td class="taC"><a href="" class="buy_sell_btn buy">구매하기</a></td>
+                                    <td class="taC"><a href="" class="buy_sell_btn sell">판매하기</a></td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
+                    <div class="filter_form_wrap mt50">
+                        <p class="sub_tit">판매대행 신청</p>
+                        <table class="filter_form form2">
+                            <tr class="filter_list">
+                                <th class="filter_tit">코인선택</th>
+                                <td class="filter_con">
+                                    <label for=""><input type="radio" name="coin_val">BTC</label>
+                                    <label for=""><input type="radio" name="coin_val">ETH</label>
+                                </td>
+                            </tr>
+                            <tr class="filter_list">
+                                <th class="filter_tit">판매희망금액</th>
+                                <td class="filter_con">
+                                    <div class="inp"><input type="text" placeholder="희망금액을 입력해주세요"></div>
+                                </td>
+                            </tr>
+                            <tr class="filter_list">
+                                <th class="filter_tit">대행 수수료</th>
+                                <td class="filter_con">
+									<div class="inp"><input type="text">KRW</div>
+									<p class="desc"><span class="pink">※</span>대행 수수료는 회원님께서 판매한 코인의 금액에서 자동 차감됩니다.</p>
+                                </td>
+                            </tr>
+                            <tr class="filter_list">
+                                <th class="filter_tit">수령 금액</th>
+                                <td class="filter_con">
+                                    <div class="inp"><input type="text">KRW</div>
+                                    <p class="desc"><span class="pink">※</span>회원님께 전송 되는 판매 금액은 판매 대행 신청 완료 시점의 시세를 기준으로 계산 됩니다.</p>
+                                </td>
+                            </tr>
+                            <tr class="filter_list">
+                                <th class="filter_tit">입금 금액</th>
+                                <td class="filter_con">
+                                    <div class="inp"><input type="text">BTC</div>
+                                    <p class="desc"><span class="pink">※</span>회원님께서 체인지24의 전자지갑으로 최종 입금하셔야 하는 코인 금액입니다.</p>
+                                </td>
+                            </tr>
+                            <tr class="filter_list">
+                                <th class="filter_tit">계좌번호</th>
+                                <td class="filter_con">
+                                    <div class="inp"><input type="text" value="0000000000000000" readonly></div>
+                                    <p class="desc"><span class="pink">※</span>판매 대행 신청 전 회원님의 계좌번호가 맞는지 필히 확인 요청드립니다.</br>회원님의 계좌번호는 마이페이지(회원정보)에서 수정 가능합니다.</p>
+                                </td>
+                            </tr>
+                        </table>
+                        <div class="submit_btns taC mt20">
+                            <button class="btn btn1 btn3" type="submit">취소</button>
+                            <button class="btn btn1 btn4 ml5" type="submit">신청</button>
+                        </div>
+                    </div>
+                </div> <!-- /pc버전 -->
+				<div class="m_ver">
+					<p class="sub_tit">코인시세</p>
+					<div class="card btc_card">
+						<div class="card_top clear">
+							<div class="btc L"><i class="fab fa-bitcoin"></i><span class="name1">BTC</span><span class="name2">bitcoin</span></div>
+							<div class="R green">&plus;0.02&#37;</div>
+						</div>
+						<p class="price">₩10,880,803.49</p>
+						<div class="card_btm clear">
+							<button type="button">구매하기</button>
+							<button type="button">판매하기</button>
+						</div>
+					</div>
+					<div class="card eth_card">
+						<div class="card_top clear">
+							<div class="eth L"><span class="name1">ETH</span><span class="name2">Ethereum</span></div>
+							<div class="R red">&#8722;0.64&#37;</div>
+						</div>
+						<p class="price">₩248,904.38</p>
+						<div class="card_btm clear">
+							<button type="button">구매하기</button>
+							<button type="button">판매하기</button>
+						</div>
+					</div>
+					<p class="sub_tit">판매대행 신청</p>
+					<ul>
+						<li class="filter_l">
+							<p class="filter_t">코인선택</p>
+							<div class="filter_c clear">
+								<input type="radio" name="coin_val" id="coin1"><label for="coin1" class="coin_val">BTC</label>
+								<input type="radio" name="coin_val" id="coin2"><label for="coin2" class="coin_val">ETH</label>
+							</div>
+						</li>
+						<li class="filter_l">
+							<p class="filter_t">판매희망금액</p>
+							<div class="filter_c">
+								<div class="inp"><input type="text" placeholder="희망금액을 입력해주세요"></div>
+							</div>
+						</li>
+						<li class="filter_l">
+							<p class="filter_t">대행 수수료</p>
+							<div class="filter_c">
+								<div class="inp"><input type="text">KRW</div>
+							</div>
+							<p class="desc"><span class="pink">※</span>대행 수수료는 회원님께서 판매한 코인의 금액에서 자동 차감 됩니다.</p>
+						</li>
+						<li class="filter_l">
+							<p class="filter_t">수령 금액</p>
+							<div class="filter_c">
+								<div class="inp"><input type="text">BTC</div>
+							</div>
+							<p class="desc"><span class="pink">※</span>회원님께 전송 되는 판매 금액은 판매 대행 신청 완료 시점의 시세를 기준으로 계산 됩니다.</p>
+						</li>
+						<li class="filter_l">
+							<p class="filter_t">입금 금액</p>
+							<div class="filter_c">
+								<div class="inp"><input type="text">BTC</div>
+							</div>
+							<p class="desc"><span class="pink">※</span>회원님께서 체인지24의 전자지갑으로 최종 입금하셔야 하는 코인 금액입니다.</p>
+						</li>
+						<li class="filter_l">
+							<p class="filter_t">계좌번호</p>
+							<div class="filter_c">
+								<div class="inp"><input type="text" value="000000000000" readonly></div>
+							</div>
+							<p class="desc"><span class="pink">※</span>판매 대행 신청 전 회원님의 계좌번호가 맞는지 필히 확인 요청드립니다. 회원님의 계좌번호는 마이페이지(회원정보)에서 수정 가능합니다.
+						   </p>
+						</li>
+					</ul>
+					<div class="submit_btns taC mt20">
+						<button class="btn btn1 btn3" type="submit">취소</button>
+						<button class="btn btn1 btn4 ml5" type="submit">신청</button>
+					</div>
+                </div> <!--/모바일버전 -->
+			</div>
+        </div>
+    </div> <!-- /container -->
+	<div class="footer">
+		<a href="../member/terms.html" class="f_list">개인정보취급방침</a>
+		<a href="../member/terms.html" class="f_list">회사정보</a>
+		<a href="../member/terms.html" class="f_list">이용약관</a>
+		<p class="copyright">Copyright by CHANGE24. All rights reserved.</p>
+	</div>
+</div>
+</body>
+</html>
